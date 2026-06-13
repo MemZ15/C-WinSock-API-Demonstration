@@ -7,8 +7,6 @@
 
 class SessionHandler {
 public:
-    using Handler = std::function<std::string(HttpRequest)>;
-
     struct ClientSession
     {
         SOCKET Socket{};
@@ -34,6 +32,5 @@ public:
 
         return ctx;
     }
-
 private:
 };

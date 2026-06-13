@@ -95,7 +95,7 @@ void NetworkHandler::OnClientConnect
 
     HttpRequest req = Self.GetResponseBuilder()->ParseHTTPRequest(buffer, bytes);
 
-    /* TODO : Multithreaded Call Handler*/
+    /* TODO : Call Handler*/
 
     auto ToSend =
         Self.GetResponseBuilder()->Build(200, "OK", "Hello World");
