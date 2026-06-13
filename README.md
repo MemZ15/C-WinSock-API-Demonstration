@@ -11,3 +11,4 @@ Thread-per-client model (can be upgraded to thread pool / async model later)
 Currently focused on server-side connection handling (no full protocol implementation yet)
 
 WIP
+![alt text](/images/1.png)
